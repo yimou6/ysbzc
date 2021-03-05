@@ -1,2 +1,7 @@
+# app
 /app/.idea
 /app/node_modules
+
+# serve
+/serve/.idea
+/serve/node_modules
