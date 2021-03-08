@@ -8,7 +8,7 @@ const app = new Koa()
 const router = new Router()
 
 app.use(BodyParser({
-    enableTypes: ['json'],
+    enableTypes: ['json', 'form'],
     jsonLimit: '5mb',
     strict: true,
     onerror: function (err, ctx) {

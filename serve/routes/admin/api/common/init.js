@@ -1,4 +1,4 @@
-const User = require('../../../database/user')
+const User = require('../../../../database/user')
 /**
  * 初始化一个用户
  * @param ctx
