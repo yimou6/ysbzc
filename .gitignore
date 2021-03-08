@@ -5,3 +5,7 @@
 # serve
 /serve/.idea
 /serve/node_modules
+
+# admin
+/admin/.idea
+/admin/node_modules
