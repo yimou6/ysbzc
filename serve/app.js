@@ -2,10 +2,13 @@ const Koa = require('koa')
 const Router = require('koa-router')
 const BodyParser = require('koa-bodyparser')
 const mongoose = require('mongoose')
+const cors = require('@koa/cors')
 const port = process.env.PORT || 5050
 
 const app = new Koa()
 const router = new Router()
+
+app.use(cors())
 
 app.use(BodyParser({
     enableTypes: ['json', 'form'],
